@@ -1,0 +1,186 @@
+body{
+font-family:Tahoma,Geneva,sans-serif;
+}
+
+a.PolicyLink{
+	 text-decoration: none;
+}
+
+a.PolicyLink:visited, a.PolicyLink:link {
+	 color: #4163A9;
+}
+a.PolicyLink:hover{
+	color: #263B63;
+}
+
+img.facePic{
+	margin-right:20px;
+}
+
+h1{
+	margin:0px;
+	padding:0px;
+	text-align:center;
+}
+
+h2{
+	margin:0px;
+	padding:0px;
+	text-align:center;
+}
+
+div.image{
+margin:25px;
+}
+
+
+.italics{
+	font-style: italic;
+}
+
+span.Title{
+	font-weight:bold;
+	font-size: 
+}
+
+div.Youtube{
+	width:560px;
+	margin-right:auto;
+	margin-left:auto;
+	margin-top:25px;
+	margin-bottom:25px;
+}
+
+
+div.ContentArea{
+width:1000px;
+margin-right:auto;
+margin-left:auto;
+background:white
+}
+
+div.ColourStrip{
+	height:100px;
+	background:#D6DDEC;
+}
+
+div.FooterColourStrip{
+	background:#D6DDEC;
+	width:100%;
+	height:35px;
+	position:fixed;
+	bottom:0px;
+}
+
+div.BottomMenu{
+	width:730px;
+	margin-right:auto;
+	margin-left:auto;
+}
+
+.BottomMenu ul{
+	/*padding: 6px 10px 7px 10px; /*6px should equal top padding of "ul li a" below, 7px should equal bottom padding + bottom border of "ul li a" below*/
+	margin: 0px;;
+	text-align: center; /*set value to "left", "center", or "right"*/
+	list-style-type : none;
+}
+
+.BottomMenu ul li{
+	display: inline;
+	float:left;
+	width:220px;
+	height:100%;
+}
+
+/*    
+Blue: #4163A9
+Light: #D6DDEC;
+VeryLight: #E4E8F2
+*/
+
+.BottomMenu ul li a{
+	font-size:13px;
+	font-family: Tahoma, Geneva, sans-serif;
+	background-color:#D6DDEC;
+	color: #4163A9;
+	padding: 11px 3px 9px 3px; /*top padding is 6px, bottom padding is 4px*/
+	margin-right: 0px; /*spacing between each menu link*/
+	text-decoration: none;
+	display: block;
+	/*border-left: 1px solid black; /*bottom border is 3px*/
+	
+}
+
+.BottomMenu ul li a:hover{
+	/*border-bottom-color: #4163A9;*/
+	color:white;
+	background-color:#5A78B4;
+	
+}
+
+.BottomMenu ul li a.selected{
+	padding: 11px 3px 6px 3px;
+	border-bottom: 3px solid #5A78B4;
+}
+
+
+
+
+
+
+
+
+
+div.TopMenu{
+	position:absolute;                  
+	bottom:0px;
+	left:130px;
+}
+
+.TopMenu ul{
+	padding: 6px 10px 7px 10px; /*6px should equal top padding of "ul li a" below, 7px should equal bottom padding + bottom border of "ul li a" below*/
+	margin: 0;
+	text-align: center; /*set value to "left", "center", or "right"*/
+	list-style-type : none;
+}
+
+.TopMenu ul li{
+	display: inline;
+	float:left;
+	width:425px;
+	height:100%;
+}
+/*
+width:283px;
+*/
+
+/*    
+Blue: #4163A9
+Light: #D6DDEC;
+VeryLight: #E4E8F2
+*/
+
+.TopMenu ul li a{
+	font-size:14px;
+	font-family: Tahoma, Geneva, sans-serif;
+	background-color:#E4E8F2;
+	color: #4163A9;
+	padding: 11px 3px 9px 3px; /*top padding is 6px, bottom padding is 4px*/
+	margin-right: 0px; /*spacing between each menu link*/
+	text-decoration: none;
+	display: block;
+	/*border-left: 1px solid black; /*bottom border is 3px*/
+	
+}
+
+.TopMenu ul li a:hover{
+	/*border-bottom-color: #4163A9;*/
+	color:white;
+	background-color:#5A78B4;
+	
+}
+
+.TopMenu ul li a.selected{
+	padding: 11px 3px 6px 3px;
+	border-bottom: 3px solid #5A78B4;
+}
